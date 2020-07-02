@@ -15,7 +15,7 @@
         android:layout_width="match_parent">
         <TextView
             android:id="@+id/solucion"
-            android:background="#474020"
+            android:background="#000000"
             android:text="0"
             android:textSize="30sp"
             android:textColor="#ffffff"
@@ -60,7 +60,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="20dp"
-            android:text="*"
+            android:text="x"
             android:textSize="24sp"/>
 
     </LinearLayout>

@@ -137,18 +137,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 num2 = Integer.parseInt(numero);
                 switch (Symbol) {
                     case "-":
-                        resultado.setText("resultado" + (num1 - num2));
+                        resultado.setText(" resultado = " + (num1 - num2));
                         break;
                     case "+":
-                        resultado.setText("resultado" + (num1 + num2));
+                        resultado.setText(" resultado = " + (num1 + num2));
                         break;
                     case "*":
-                        resultado.setText("resultado" + (num1 * num2));
+                        resultado.setText(" resultado = " + (num1 * num2));
                         break;
                     case "/":
-                        resultado.setText("resultado" + (num1 / num2));
+                        resultado.setText(" resultado = " + (num1 / num2));
                         break;
-
 
                 }
 
